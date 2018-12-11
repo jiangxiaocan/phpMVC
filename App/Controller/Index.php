@@ -6,10 +6,12 @@ namespace Jxc\App\Controller;
  * Date: 2018/12/10
  * Time: 14:02
  */
-class Index {
+class Index extends Controller {
     public function index()
     {
-        echo 'hello';
+        parent::before();
+        $this->view->assign('test',123);
+        $this->view->render('index');
     }
 
     public function dd()
