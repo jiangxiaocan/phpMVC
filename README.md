@@ -1,0 +1,3 @@
+刚刚搭建一个mvc框架，使用自动加载机制
+利用composer自动上传
+nginx不支持pathinfo模式，需要手动创建
