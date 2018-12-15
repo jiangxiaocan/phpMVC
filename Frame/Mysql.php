@@ -46,7 +46,7 @@ class Mysql
     protected function connect($cfg)
     {
         $opts = array(
-            \PDO::ATTR_AUTOCOMMIT => isset($cfg['auotocommit'])?true:false,
+            \PDO::ATTR_AUTOCOMMIT => isset($cfg['auotocommit'])?$cfg['auotocommit']:true,
             \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
             \PDO::ATTR_TIMEOUT => $cfg['timeout']?$cfg['timeout']:self::$cfg['timeout'],
             \PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES '" . $cfg['charset'] . "'",
