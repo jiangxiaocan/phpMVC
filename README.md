@@ -75,6 +75,7 @@ server {
 ### 联系方式：843665303@qq.com
 
 #### 实现一个简单zigbee的增删改查
+主要代码在 APP/Controller/index.php中
 /index/look 查询接口
 /index/add 增加接口
 /index/update 修改接口

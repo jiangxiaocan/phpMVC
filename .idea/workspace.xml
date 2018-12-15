@@ -245,7 +245,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="24" />
     <option name="width" value="1895" />
     <option name="height" value="1047" />
