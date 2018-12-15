@@ -6,4 +6,5 @@
  * Time: 11:57
  */
 echo 'hello china';
-echo $test;
+print_r($data) ;
+echo 'hello china1';

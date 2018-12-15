@@ -1,5 +1,7 @@
 <?php
 namespace Jxc\App\Controller;
+use Jxc\App\Model\IndexModel;
+
 /**
  * Created by PhpStorm.
  * User: Administrator
@@ -10,12 +12,11 @@ class Index extends Controller {
     public function index()
     {
         parent::before();
-        $this->view->assign('test',123);
+        $testModel = IndexModel::getInstance();
+        $data = $testModel->getInfo();
+        $this->view->assign('data',$data);
         $this->view->render('index');
     }
 
-    public function dd()
-    {
-        echo 'dd';
-    }
+
 }
