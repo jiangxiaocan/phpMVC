@@ -1,7 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84aba831-d7b4-4204-bd8d-44c76fa92dab" name="Default Changelist" comment="" />
+    <list default="true" id="84aba831-d7b4-4204-bd8d-44c76fa92dab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface-meta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/ContainerInterface.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup-meta.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/Delegate-lookup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/interoperating_containers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/priority.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/docs/images/side_by_side_containers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/ContainerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/ContainerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/container-interop/container-interop/src/Interop/Container/Exception/NotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/.hhconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/FastRoute.hhi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/psalm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/BadRouteException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/CharCountBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/GroupPosBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/MarkBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/CharCountBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteCollector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteParser/Std.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/src/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/CharCountBasedTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/DispatcherTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/GroupCountBasedTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/GroupPosBasedTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/MarkBasedTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/HackTypecheckerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/all_options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/empty_options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/no_options.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/RouteCollectorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/RouteParser/StdTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/nikic/fast-route/test/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/CHANGELOG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/config.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/config.w32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/php_pimple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/pimple.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/pimple_compat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/001.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/002.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/003.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/004.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/005.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/006.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/007.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/008.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/009.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/010.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/011.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/012.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/013.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/014.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/015.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/016.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/017.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/017_1.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/018.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/019.phpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/bench.phpb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/ext/pimple/tests/bench_shared.phpb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/ExpectedInvokableException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/FrozenServiceException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/InvalidServiceIdentifierException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/UnknownIdentifierException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Psr11/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Psr11/ServiceLocator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/ServiceIterator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/ServiceProviderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Fixtures/Invokable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Fixtures/NonInvokable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Fixtures/PimpleServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Fixtures/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/PimpleServiceProviderInterfaceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/PimpleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Psr11/ContainerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/Psr11/ServiceLocatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Tests/ServiceIteratorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/ContainerExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/ContainerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/container/src/NotFoundExceptionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/MessageInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/RequestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/ServerRequestInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/StreamInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/UploadedFileInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/http-message/src/UriInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/CallableResolverAwareTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Collection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/DefaultServicesProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/DeferredCallable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/ContainerValueNotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/InvalidMethodException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/MethodNotAllowedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/NotFoundException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Exception/SlimException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/AbstractHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotAllowed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/NotFound.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/PhpError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseArgs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Body.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Cookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Environment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Headers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/RequestBody.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/StatusCode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Stream.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/UploadedFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Http/Uri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/CollectionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteGroupInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouteInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Interfaces/RouterInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/MiddlewareAwareTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Routable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/RouteGroup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/Slim/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/slim/slim/composer.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +226,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="json" value="4" />
           <entry key="md" value="1" />
           <entry key="php" value="150" />
@@ -48,6 +237,7 @@
           <entry key="JSON" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="150" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,7 +265,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -84,11 +274,16 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Model/Model.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="837">
-              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -115,7 +310,7 @@
         <entry file="file://$PROJECT_DIR$/App/Controller/Controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -188,6 +383,7 @@
         <option value="$PROJECT_DIR$/App/Model/TestModel.php" />
         <option value="$PROJECT_DIR$/App/Model/IndexModel.php" />
         <option value="$PROJECT_DIR$/App/Controller/Index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -202,17 +398,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
-      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/slim/slim" />
-    </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="24" />
@@ -264,6 +449,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wnmp\html\example" />
       <recent name="D:\Wnmp\html\example\Frame" />
     </key>
   </component>
@@ -291,12 +477,12 @@
       <updated>1544405749773</updated>
       <workItem from="1544405751099" duration="17532000" />
       <workItem from="1544488886676" duration="7053000" />
-      <workItem from="1544661743217" duration="21457000" />
+      <workItem from="1544661743217" duration="21749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46042000" />
+    <option name="totallyTimeSpent" value="46334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,7 +776,7 @@
     <entry file="file://$PROJECT_DIR$/App/Controller/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -604,7 +790,7 @@
     <entry file="file://$PROJECT_DIR$/App/Model/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -628,6 +814,9 @@
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
