@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84aba831-d7b4-4204-bd8d-44c76fa92dab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +43,15 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="json" value="4" />
-          <entry key="md" value="1" />
-          <entry key="php" value="150" />
+          <entry key="md" value="2" />
+          <entry key="php" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="Markdown" value="1" />
-          <entry key="PHP" value="150" />
+          <entry key="Markdown" value="2" />
+          <entry key="PHP" value="151" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -58,14 +59,14 @@
         <counts>
           <entry key="dummy" value="32" />
           <entry key="json" value="4" />
-          <entry key="md" value="70" />
+          <entry key="md" value="377" />
           <entry key="php" value="4238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="4" />
-          <entry key="Markdown" value="70" />
+          <entry key="Markdown" value="377" />
           <entry key="PHP" value="4238" />
           <entry key="PLAIN_TEXT" value="32" />
         </counts>
@@ -88,11 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="714">
+                <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,7 +195,6 @@
         <option value="$PROJECT_DIR$/Frame/FrameAutoLoad.php" />
         <option value="$PROJECT_DIR$/Frame/View.php" />
         <option value="$PROJECT_DIR$/App/model/Model.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Frame/Db.php" />
         <option value="$PROJECT_DIR$/Frame/Pool.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
@@ -202,6 +214,7 @@
         <option value="$PROJECT_DIR$/App/Model/IndexModel.php" />
         <option value="$PROJECT_DIR$/App/Controller/Index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -216,6 +229,17 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="24" />
@@ -250,6 +274,28 @@
             <path>
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,12 +341,12 @@
       <updated>1544405749773</updated>
       <workItem from="1544405751099" duration="17532000" />
       <workItem from="1544488886676" duration="7053000" />
-      <workItem from="1544661743217" duration="21795000" />
+      <workItem from="1544661743217" duration="22768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46380000" />
+    <option name="totallyTimeSpent" value="47353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frame/start.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -543,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frame/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -592,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/view/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -620,10 +642,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Model/IndexModel.php">
+    <entry file="file://$PROJECT_DIR$/Config/Db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="441">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -638,6 +667,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/IndexModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="714">
+            <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
